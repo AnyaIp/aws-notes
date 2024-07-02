@@ -15,3 +15,6 @@ For Amazon Linux 2
 - `sudo dnf update`
 - `sudo dnf install postgresql15.x86_64 postgresql15-server -y`
 - `sudo postgresql-setup --initdb`
+- vim /var/lib/pgsql/data/postgresql.conf
+-  vim /var/lib/pgsql/data/pg_hba.conf
+
